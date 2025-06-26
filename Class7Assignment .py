@@ -1,3 +1,10 @@
+"""
+Write a function to find the factorial of a number
+Write a function that checks if a number is prime
+(limit to the first 10 prime numbers 2, 3, 5, 7, 11, 13, 17, 19, 23, 29).
+Write a script that reads from a file and prints each line with line numbers
+Write a script that asks the user for input and appends it to a file
+"""
 # Normal Method
 from math import sqrt, factorial
 print(factorial(4))

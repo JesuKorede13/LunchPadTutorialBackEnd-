@@ -33,7 +33,7 @@ except Exception:
 try:
     filename = "example.txt"
     user_input = "This is a test input."
-    with open(filename, 'a') as file:
+    with open(filename, 'a+') as file:
         file.write(user_input + "\n")
     print(f"Input appended to '{filename}' successfully.")
 except PermissionError:
